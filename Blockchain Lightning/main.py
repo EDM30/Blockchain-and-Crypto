@@ -1,3 +1,5 @@
+
+
 # the block acts as a storing unit which stores data inside
 class Block:
     def __init__(self, data, hash, last_hash):
