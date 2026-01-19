@@ -1,4 +1,5 @@
 from backend.blockchain.block import Block
+
 class Blockchain:
     """
     Blockchain: a public ledger of transactions.
@@ -12,7 +13,7 @@ class Blockchain:
 
     def __repr__(self):
         return f'Blockchain: {self.chain}'
-    
+
 def main():
     blockchain = Blockchain()
     blockchain.add_block('one')
@@ -20,6 +21,6 @@ def main():
 
     print(blockchain)
     print(f'blockchain.py __name__: {__name__}')
-        
-if __name__ == "__main__":
-        main()
+
+if __name__ == '__main__':
+    main()
